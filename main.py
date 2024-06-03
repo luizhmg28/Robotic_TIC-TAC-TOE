@@ -12,13 +12,6 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
-# --Credenciais Broker-- #
-IP_BROKER = "192.168.2.102"
-PORT_BROKER = 7500
-USERNAME_BROKER = "planta40mqttlogin"
-PASSWORD_BROKER =  "gatoehfofoplanta40eniac"
-TOPIC_BROKER = "Centraldecomandos40"
-CLIENT_MQTT = "tic_tac_toe"
 
 # --Conexão com o LED via mqtt-- #
 def handler(client, userdata, flgs, rc:int ):

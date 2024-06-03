@@ -8,9 +8,6 @@ Projeto de manuseio de um braço robótico permitindo-o jogar o "Jogo da Velha" 
 - [Pré-requisitos](#pré-requisitos)
 - [Configuração do Ambiente](#config)
 - [Contribuição](#contribuição)
-- [Licença](#licença)
-- [Autores e Agradecimentos](#autores-e-agradecimentos)
-- [Recursos Adicionais](#recursos-adicionais)
 
 ## Descrição
 
