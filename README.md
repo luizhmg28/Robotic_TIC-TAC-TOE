@@ -7,7 +7,7 @@ Projeto de manuseio de um braço robótico permitindo-o jogar o "Jogo da Velha" 
 - [Descrição](#descrição)
 - [Pré-requisitos](#pré-requisitos)
 - [Configuração do Ambiente](#config)
-- [Contribuição](#contribuição)
+- [Uso](#uso)
 
 ## Descrição
 
@@ -48,3 +48,27 @@ source <NOME_DO_SEU_PROJETO>/bin/activate
 
 pip install -r requirements.txt
 ```
+
+## Uso
+Para utilizar o código:
+
+### 1. Inicialize o Ambiente Virtual: 
+Certifique-se de que o ambiente virtual esteja ativado.
+
+### 2. Configuração das Variáveis de Ambiente: 
+As variáveis de ambiente necessárias devem ser definidas. Você pode fazer isso criando um arquivo .env na raiz do projeto com o seguinte conteúdo (ajuste os valores conforme necessário):
+
+.env
+IP = "ip_do_robo"
+PORT = "porta_do_robo"
+
+IP_BROKER = "ip_do_seu_broker"
+PORT_BROKER = porta_do_broker
+USERNAME_BROKER = "seu_usuario"
+PASSWORD_BROKER =  "sua_senha"
+TOPIC_BROKER = "topico_para_publicacao"
+CLIENT_MQTT = "identificador_unico_cliente" 
+
+### 3. Execute o Script: 
+Use o seguinte comando para rodar o script principal:
+python main.py
