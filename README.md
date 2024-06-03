@@ -48,4 +48,3 @@ source <NOME_DO_SEU_PROJETO>/bin/activate
 
 pip install -r requirements.txt
 ```
-
